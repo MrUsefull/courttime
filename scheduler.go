@@ -10,5 +10,6 @@ type Schedule struct {
 	// vs a D team or a B team.
 	SecondaryDivision map[*Team][]*Division
 
+	// Courts are courts that we can schedule on
 	Courts []Court
 }

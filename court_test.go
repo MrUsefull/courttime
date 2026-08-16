@@ -139,12 +139,12 @@ func TestBuildCourt(t *testing.T) {
 	}
 }
 
-func calcBoundedTime(start time.Time, max time.Duration, r *rand.Rand) time.Time {
-	return start.Add(calcBoundedDuration(max, r))
+func calcBoundedTime(start time.Time, maxDiff time.Duration, r *rand.Rand) time.Time {
+	return start.Add(calcBoundedDuration(maxDiff, r))
 }
 
-func calcBoundedDuration(max time.Duration, r *rand.Rand) time.Duration {
-	return time.Duration(r.Int63n(2*int64(max)) - int64(max))
+func calcBoundedDuration(maxDiff time.Duration, r *rand.Rand) time.Duration {
+	return time.Duration(r.Int63n(2*int64(maxDiff)) - int64(maxDiff))
 }
 
 func TestGetCap(t *testing.T) {
