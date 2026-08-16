@@ -24,6 +24,24 @@ Each game takes T time (ie, there are some number of buckets to slot games into)
 
 Provide a schedule for play, where each team gets "roughly" equal play time.
 
+## Build + Dev env
+
+### Requirements
+
+- go 1.26.6+ (because this is what I had installed when I started the project)
+
+### Run tests
+
+```bash
+make test
+```
+
+### Lint
+
+```bash
+make lint
+```
+
 ## Roadmap
 
 - [ ] Basic multi court scheduling for cross division play
