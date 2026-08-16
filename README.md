@@ -23,3 +23,9 @@ Court 1...N is available for M hours.
 Each game takes T time (ie, there are some number of buckets to slot games into)
 
 Provide a schedule for play, where each team gets "roughly" equal play time.
+
+## Roadmap
+
+- [ ] Basic multi court scheduling for cross division play
+- [ ] Court affinity - ie, don't schedule back to back games for a team across two courts
+- [ ] Team Rosters and subs (perhaps just left to do by hand?)
