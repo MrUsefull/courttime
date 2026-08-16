@@ -5,10 +5,11 @@ Court Time is a go package aimed around generating schedules for cross division 
 In other words, given
 
 **Division**
-A
-B
-C
-D
+
+- A
+- B
+- C
+- D
 
 **Constraints**
 
@@ -21,4 +22,4 @@ And there are court/field time constraints of
 Court 1...N is available for M hours.
 Each game takes T time (ie, there are some number of buckets to slot games into)
 
-Provide a schedule for play.
+Provide a schedule for play, where each team gets "roughly" equal play time.
